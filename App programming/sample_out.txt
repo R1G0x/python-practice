@@ -1,0 +1,8 @@
+Writing to a file.
+ really easy
+Writing to a file.
+ really easy
+Writing to a file.
+ really easy
+Python is a scripting or a high-level language.
+Python supports object oriented style of programming.

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<employee>
+  <id>142356</id>
+  <name>George</name>
+  <base_branch>HYD</base_branch>
+  <skill name="Python"/>
+  <skill name="C#"/>
+  <skill name="HTML"/>
+  <skill name="Javascript"/>
+</employee>

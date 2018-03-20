@@ -16,7 +16,7 @@ print(mx_emps)
 #filter employees with certain skill
 import re
 pattern = re.compile(r'oracle', re.IGNORECASE)
-oracle_emps = [emp['Emp_Name'] for emp in emps if pattern.search(emp['Skill'])]
+oracle_emps = [emp['Emp_Name'] for emp in emps if pattern.search(emp['Skill_set'])]
 print(oracle_emps)
 
 #filter all ASE employees and sorting w.r.t their names
