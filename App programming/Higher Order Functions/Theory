@@ -1,0 +1,9 @@
+ - A Higher Order function is a function, which is capable of 
+   doing any one of the following things:
+    
+    - It can be functioned as a data and be assigned to a variable.
+    - It can accept any other function as an argument.
+    - It can return a function as its result.
+    - The ability to build Higher order functions, allows a
+      programmer to create Closures, which in turn are used to
+      create Decorators.
