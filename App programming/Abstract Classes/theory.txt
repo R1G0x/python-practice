@@ -1,0 +1,6 @@
+- An Abstract Base Class or ABC mandates the derived classes to implement specific
+  methods from the base class.
+- It is not possible to create an object from a defined ABC class.
+- Creating objects of derived classes is possible only when derived classes override
+  existing functionality of all abstract methods defined in an ABC class.
+  
