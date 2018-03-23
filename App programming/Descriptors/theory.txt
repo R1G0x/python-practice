@@ -1,0 +1,29 @@
+- Python descriptors allow a programmer to create managed attributes.
+- In other object-oriented languages, you will find getter and
+  setter methods to manage attributes.
+- However, Python allows a programmer to manage the attributes
+  simply with the attribute name, without losing their
+  protection.
+- This is achieved by defining a descriptor class, that implements
+  any of __get__, __set__, __delete__ methods
+  
+Properties
+  - Descriptors can also be created using property() type.
+  - It is easy to create a descriptor for any attribute using
+    property().
+
+Syntax of defining a Property
+property(fget=None, fset=None, fdel=None, doc=None)
+
+where, 
+  - fget : attribute get method
+  - fset : attribute set method 
+  - fdel : attribute delete method
+  - doc  : docstring
+  
+Property Decorators
+  - Descriptors can also be created with property decorators
+  - While using property decorators, an attribute's get method
+    will be same as its name and will be decorated with property.
+  - In a case of defining any set or delete methods, they will be
+    decorated with respective setter and deleter methods.
