@@ -1,0 +1,10 @@
+- A context Manager allos a programmer to perform required activities, automatically,
+  while entering or exiting a Context.
+- For example, opening a file, doing few file operations, and closing the file is managed
+  using Context Manager as shown below.
+  
+  with open('sample.txt', 'w') as fp:
+    content = fp.read()
+
+- The keyword with is used in Python to enable a context manager. It automatically
+  takes care of closing the file.
