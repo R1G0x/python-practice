@@ -1,0 +1,23 @@
+You have read about function, higher order function, closures etc. Now, it is time to learn
+about their scope. Based on the scope, functions/methods are of two types. They are:
+  - Class methods
+  - Static methods
+  
+Class Methods
+  - A method defined inside a class is bound to its object, by default.
+  - However, if the method is bound to a Class, then it is known as classmethod.
+  - Consider the following two examples:
+    - Example 1 defines the method getCirclesCount, bound to an object of Circle class.
+    - Example 2 defines the classmethod getCirclesCount, bound to class Circle.
+
+
+Static Method
+
+  - A method defined inside a class and not bound to either a class or an object is known as Static Method.
+  - Decorating a method using @staticmethod decorator makes it a static method.
+  - Consider the following two examples:
+    - Example 1 defines the method square , outside the class definition of Circle, and uses
+      it inside the class Circle.
+    - Example 2 defines the static method square, inside the class Circle, and uses it.
+    
+
