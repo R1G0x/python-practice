@@ -1,0 +1,6 @@
+- A Coroutine is generator which is capable of constantly receiving input data, process
+  input data and may or may not return any output.
+- Coroutines are majorly used to build better Data Processing Pipelines
+- Similar to a generator, execution of a coroutine stops when it reaches yield statement.
+- A Coroutine uses send method to send any input value, which is captured by yield expression.
+
